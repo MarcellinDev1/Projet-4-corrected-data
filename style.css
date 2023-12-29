@@ -5,9 +5,25 @@ body {
     overflow-x: hidden;
     max-width: 1440px;
     min-width: 320px;
+    width:95%;
+    margin:auto;
    /* -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;*/
 }
+
+.contact-body{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.formulaire-line{
+    margin-bottom:20px;
+}
+
+.footer-paragraph{
+    padding-left:10px;
+}
+
 
 a,
 button {
@@ -63,7 +79,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    /*padding: 0 50px;*/
     /*-webkit-background-size: cover;
     -moz-background-size: cover;*/
     /*-o-background-size: cover;*/
@@ -856,6 +872,14 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+
+body {
+    /* margin: 0*/
+    max-width: 1440px;
+    min-width: 320px;
+    width:100%;
+    margin:auto;
+ }
 
 /*MOBILE*/
 @media (max-width: 1024px) {
